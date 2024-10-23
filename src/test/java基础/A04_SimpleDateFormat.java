@@ -14,6 +14,7 @@ public class A04_SimpleDateFormat {
             Date date = simpleDateFormat.parse(str);
             String yyyy年MM月dd日 = new SimpleDateFormat("yyyy年MM月dd日").format(date);
             System.out.println(yyyy年MM月dd日);
+            System.out.println(date);
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
